@@ -82,7 +82,11 @@ public class TextController : MonoBehaviour
     {
         switch (health)
         {
-
+            case HealthCondition.Healthy:
+            {
+                Text.text = "You are perfectly healthy.";
+            }
+            break;
         }
     }
 
